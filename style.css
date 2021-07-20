@@ -1,37 +1,63 @@
+
+
+
 header {
-    margin: 10%;
+    padding: 30px;
     font-family: Helvetica, sans-serif;
     font-size: 3.3vw;
     font-weight: bold;
+    text-align: center;
+ 
 }
 #pics{
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto 
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    
+    
 }
 
 img {
-    max-width: 40vw;
-    max-height:40vw;
+    max-width: 30vw;
+    max-height:30vw;
     width: auto;
     height: auto;
     float: center;
+    margin: 15px;
+    
   }
 
 
-
-
 #statsTable {
-    margin: 20%;
-    width: 90%;
-    border-color: darkgreen;
-    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
 
+    
 }
 
-td{
+td  {
     text-align: center;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
-footer {
+#teamPhoto {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
 
+
+
+footer {
+    font-size: 8px;
+    text-align: right;
+    
 }
+
